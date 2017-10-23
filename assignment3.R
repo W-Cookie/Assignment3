@@ -1,6 +1,7 @@
 #The tidy data was stored in csv formati and was loaded into R using "read_csv" command
 library(readr)
 GA_SNAPstores_2008_2016_GeoID <- read_csv("D:/Dropbox/course/INFO 8000/Assignment3/GA_SNAPstores_2008_2016_GeoID.csv")
+#View teh first 5 rows of the data
 head(GA_SNAPstores_2008_2016_GeoID,n=5)
 
 #Map visualization
